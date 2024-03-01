@@ -1,0 +1,60 @@
+h3 {
+    margin-top: 0px;
+}
+
+.heading {
+    height: 30%;
+    background-color: var(--green);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+}
+
+.heading--text {
+    padding-top: 25px;
+}
+
+.heading img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.heading--number {
+    font-size: 15px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    color: whitesmoke;
+}
+
+.heading--btns {
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading--btns button {
+    border-radius: 50px;
+    background: #31E880;
+    border: 1px solid;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 80px;
+}
+
+.heading--btns p {
+    font-family: "Apple Braille";
+    font-size: 12px;
+    position: relative;
+    left: -10px;
+    font-weight: bolder;
+
+}

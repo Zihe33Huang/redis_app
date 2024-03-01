@@ -1,0 +1,52 @@
+.Music {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.music--index {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+
+.MusicList img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.music--info {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    text-align: center;
+}
+
+.music--title {
+    width: 50%;
+}
+
+.music--title h4 {
+    font-weight: normal;
+}
+
+.music--score {
+    margin-right: 25px;
+}
+
+.support--btn {
+    border-radius: 15px;
+    width: 65px;
+    height: 35px;
+    background: transparent;
+    border: var(--green) 1px solid;
+    color: var(--green);
+    font-weight: bolder;
+    cursor: pointer;
+}
