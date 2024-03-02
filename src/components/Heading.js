@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./Heading.css";
 import img from "../img.png";
+import {host} from "../env";
 
 
 
 export default function Heading({setShowExp, total}) {
+
+
+
     return (
         <div className="heading">
             <div className="heading--text">
@@ -13,13 +17,10 @@ export default function Heading({setShowExp, total}) {
             </div>
             <div className="heading--btns">
                 <button onClick={() => setShowExp(true)}>explain</button>
-                <button  onClick={() => setShowExp(true)}>renew</button>
-                <p>* crawl newest data from Internet</p>
             </div>
 
             <p className="heading--number">Total Number: {total}</p>
             <img className="heading--img" src={img} alt="Music Pic"/>
-
         </div>
     )
 }

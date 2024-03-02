@@ -35,7 +35,7 @@ h3 {
 .heading--btns {
     position: absolute;
     left: 20px;
-    bottom: 0px;
+    bottom: 40px;
     display: flex;
     flex-direction: column;
 

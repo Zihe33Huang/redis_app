@@ -7,7 +7,7 @@ function App() {
 
     const [total, setTotal] = useState(0);
     const [showExp, setShowExp] = useState(false);
-    return (
+     return (
         <div className="App">
             <Heading setShowExp={setShowExp} total={total}></Heading>
             <MusicList setTotal={setTotal}></MusicList>

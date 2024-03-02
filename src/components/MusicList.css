@@ -50,3 +50,26 @@
     font-weight: bolder;
     cursor: pointer;
 }
+
+.renew {
+    position: relative;
+    left: 20px;
+    top: -40px;
+}
+
+.renew p {
+    font-size: 0.7rem;
+    margin: 0;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+.renew--btn {
+    border-radius: 50px;
+    background: #31E880;
+    border: 1px solid;
+    cursor: pointer;
+    width: 80px;
+}
+
